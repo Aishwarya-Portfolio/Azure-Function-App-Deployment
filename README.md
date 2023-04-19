@@ -1,5 +1,5 @@
 # Azure-Function-App-Deployment
-A project on Azure DevOps CI-CD to deploy a website on App service and Azure Function App.
+A project on Azure DevOps CI-CD to deploy a website on App service and, Azure Function App.
 
 <img width="500" alt="image" src="https://user-images.githubusercontent.com/91592578/233173520-e026036a-eb19-4332-ae0e-daea5837f6ab.png">
 
