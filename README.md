@@ -107,4 +107,23 @@ Azure Functions is serverless computing technology offered by Azure. It provides
 1. In the New service connection pane, select Service principal (automatic).
 2. And enter the following settings:
   <img width="900" alt="image" src="https://user-images.githubusercontent.com/91592578/233181347-1ed29bad-1567-4c9f-a81e-aa29a6380834.png">
+ 
 3. Ensure that Grant access permission to all pipelines is selected. And Save.
+
+### CI-CD in Azure DevOps
+1. Used YAML pipeline which has both build and deploy stage to deploy space game website in App service, and deploy Function app which will expose leaderboard data for the users.
+[azure-pipelines.yml](https://github.com/Aish-Tinkerbell/mslearn-tailspin-spacegame-web-azure-functions/blob/main/azure-pipelines.yml)
+
+2. Enabled CI trigger to run the pipeline whenever there is a commit to the main branch of my GitHub Repository.
+3. Once the Build is completed and App service is deployed, we will get the URL to access the website-
+
+ <img width="1000" alt="image" src="https://user-images.githubusercontent.com/91592578/233300803-e8f9eb42-a4e3-4ced-a74c-6308181f63a1.png">
+
+4. You'll get a page with the site running on App Service. Scroll down to confirm that the leaderboard has real data in it. This is powered by the function app.
+ <img width="1000" alt="image" src="https://user-images.githubusercontent.com/91592578/233301038-7e79597b-4e46-4da1-9b9e-3702b5853a14.png">
+
+5. Leaderboard only shows up if the function appd eployment is successful-
+ <img width="1000" alt="image" src="https://user-images.githubusercontent.com/91592578/233301262-7eb23a8c-6baf-4b7f-95a1-0bb5934dc775.png">
+
+Thank you for reading.
+Happy Learning!! 🤩
